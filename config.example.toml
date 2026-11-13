@@ -1,0 +1,194 @@
+# ============================================================
+# 小鱼（鲸鱼娘）DeepSeek 聊天助手 —— 服务端配置
+# 改完直接重启 run.py 生效，不需要重启帕鲁服务器。
+# 人设文件默认是同目录的 persona.md，要换名字加：persona_file = "xxx.md"
+# ============================================================
+
+# 人设：persona.md 是活人版（默认），persona-lite.md 是省 token 的压缩版。
+persona_file = "persona.md"
+# 服务器的事实与「不许编数值」规则，改这个文件就能更新
+facts_file = "server_facts.md"
+# 本地资料库（帕鲁数值）。没有这个文件就自动跳过，不影响运行。
+paldex_file = "data/paldex.json"
+
+# ------------------------------------------------------------
+# 1. DeepSeek 接口
+# ------------------------------------------------------------
+[deepseek]
+# 推荐用环境变量放 key，别写进文件（文件容易被截图/发给别人）
+api_key_env = "DEEPSEEK_API_KEY"
+# 也可以直接写死（不推荐）：api_key = "sk-xxxxxxxx"
+api_key = ""            # 向导会写进 config.local.json，不用改这里
+base_url = "https://api.deepseek.com"
+model = "deepseek-v4-flash"      # 别名，等价 deepseek-flash；想更强用 deepseek-v4-pro
+max_tokens = 160                 # 回复上限，卡住"说两句就完"的长度，也卡住花费
+temperature = 1.15               # 人设闲聊建议 1.0~1.3，别太死板
+timeout = 25.0
+# 推理模型（v4-pro / reasoner）会把 max_tokens 全花在思考上，导致正文为空。
+# 游戏里只要短回复，所以默认关掉思考；用 flash 这类普通模型时这个开关不起作用。
+thinking = false
+history_turns = 3                # 每名玩家记住最近几轮（0 = 不记，最省 token）
+
+# ------------------------------------------------------------
+# 2. 触发：什么消息才值得花 token
+# ------------------------------------------------------------
+[trigger]
+# 只有包含这些词的聊天才会去问 DeepSeek。
+# 注意：问好、叫"大肥鱼"这类请放 [preset]，那样不花钱。
+ai_keywords = ["哦鲸鲸", "小鱼", "肥鱼", "小助手", "问问", "求助", "deepseek"]
+
+# 指令前缀：填 "问:" 之后，只有 "问:xxx" 才会触发 AI（最省 token 的模式）
+# 留空 = 不用前缀，只靠上面的关键词
+command_prefix = ""
+
+# 这些开头的消息一律不管（避免和别的插件/指令打架）
+ignore_prefixes = ["!", "/", "#", "／"]
+
+# 超长的消息（比如粘贴了一大段）直接忽略。
+# min_chars 只约束 AI 判定；预设话再短也照回（"你好""谢谢"这种就得短）。
+min_chars = 4
+max_chars = 200
+
+# ------------------------------------------------------------
+# 3. 预设回复：命中就本地直接发，0 token
+# ------------------------------------------------------------
+[preset]
+enabled = true
+cooldown = 45.0                  # 同一玩家两条预设回复的最小间隔（秒）
+# 同一个词配多条，按消息哈希轮换，不会每次都一模一样
+
+[[preset.rules]]
+name = "fatfish"
+# 雷点：叫她"大肥鱼"必须炸毛，而且要在 AI 之前拦下来，不花 token
+keywords = ["大肥鱼", "胖", "吃白饭"]
+replies = [
+  "？你再说一遍试试 (＃`Д´)",
+  "才不是大肥鱼！是小鲸鱼！(＃`Д´)",
+  "这叫鲸鱼该有的丰满 你懂什么",
+]
+
+[[preset.rules]]
+name = "greeting"
+keywords = ["你好", "您好", "hi", "hello", "哈喽", "在吗", "在么", "早", "早上好", "晚上好", "中午好"]
+replies = [
+  "嗯？来了 (˘ω˘)",
+  "在的 说吧",
+  "叫我就叫 别喊大肥鱼",
+]
+
+[[preset.rules]]
+name = "thanks"
+keywords = ["谢谢", "多谢", "感谢", "谢了", "thx", "thanks"]
+replies = [
+  "哼 知道就好",
+  "不用谢 记着就行",
+]
+
+[[preset.rules]]
+name = "bye"
+keywords = ["再见", "拜拜", "下线了", "走了", "bye"]
+replies = [
+  "走吧走吧 记得回来",
+  "晚安 别熬夜",
+]
+
+[[preset.rules]]
+name = "who"
+keywords = ["你是谁", "什么鱼", "介绍一下自己", "谁啊"]
+replies = [
+  "小鱼 鲸鱼娘 住这池子里",
+  "我是小鱼 不是鱼 是鲸鱼(๑•̀ω•́)ノ",
+]
+
+[[preset.rules]]
+name = "praise"
+keywords = ["厉害", "牛", "好强", "666"]
+replies = [
+  "哼 这还差不多 (≧▽≦)",
+  "低调 低调",
+]
+
+# ------------------------------------------------------------
+# 4. 花钱的闸门：冷却 / 频率 / 每日 token 上限
+# ------------------------------------------------------------
+[limits]
+# 同一玩家两次 AI 回复的最小间隔（秒）。太长会让人以为机器人坏了。
+per_player_cooldown = 10.0
+global_replies_per_minute = 6    # 全服每分钟最多几次 AI 回复
+daily_token_budget = 200000      # 每天 token 预算，用完当天只说预设话
+# 只用来吃掉 UE4SS 同一条消息触发两次（间隔约 0.2 秒）。
+# 这个值别调大，否则玩家重发同一句会被误判成重复。
+dedupe_window = 3.0
+max_reply_chars = 120            # 硬上限只防跑飞，不参与日常长度控制
+
+# ------------------------------------------------------------
+# 4.5 当天记忆：跨重启保留，跨天清空
+# ------------------------------------------------------------
+[memory]
+enabled = true
+file = "data/memory.json"
+max_players = 50                 # 最多记多少人，超了先淘汰最早的
+# 每人记几轮由 [deepseek].history_turns 控制（设 0 = 不记忆）
+
+# ------------------------------------------------------------
+# 4.6 整点 / 半点报时（本地模板，不花 token）
+# ------------------------------------------------------------
+[clock]
+enabled = true
+interval_minutes = 30            # 30 = 整点和半点各一次
+# {time} 换成 14:30，{period} 换成「整点 / 半点」
+# 靠独立的【报时】前缀跟普通回复区分开；符号你嫌花可以删，
+# 如果你的客户端把特殊符号显示成方块，就只留文字和【】。
+templates = [
+  "【报时】{time} ● {period}了 起来动动 咕噜",
+  "【报时】{time} ● 正好{period} 喝口水吧",
+  "【报时】{time} ● 嗝 时间过得真快",
+]
+
+# ------------------------------------------------------------
+# 5. 回复怎么发回去
+# ------------------------------------------------------------
+[reply]
+# transport: rest      = 帕鲁官方 REST API 的 /v1/api/announce（Windows 自建服走这个）
+#            palladium = Palladium 面板的 server.announce / player.message（Docker 全套）
+#            console   = 只打印到本地控制台（首次试跑用这个）
+transport = "rest"
+# target: announce = 全服可见；player = 只回给提问的人（仅 Palladium 支持）
+target = "announce"
+prefix = "【大肥鱼】"
+# 调用 DeepSeek 失败时，兜底说一句（不浪费第二次 token）
+error_text = "……卡住了 等我缓一下"
+# 回答里出现资料库里没有的帕鲁名时，改发这句（设成空字符串 = 直接不回）
+unknown_text = "这名字我没印象 你说的是哪只"
+
+# ------------------------------------------------------------
+# 6. 聊天从哪来
+# ------------------------------------------------------------
+[server]
+# mode: stdin     = 手动敲玩家消息，试跑用，不连服务器
+#       log       = tail UE4SS.log（Windows 自建服推荐，配合 ue4ss/Mods/PalChatRelay）
+#       palladium = 轮询 Palladium 面板的 player.chat 事件（Docker 全套）
+#       tail      = 直接 tail Palladium 的 bridge-events.jsonl
+# 第一次跑先用 stdin + console 把逻辑走通，再接真服务器。
+mode = "log"
+bridge_url = "http://127.0.0.1:8080"
+# Palladium 面板「管理员 → API Token」里建，权限至少 read（发广播还需要 write）
+bridge_token = ""
+event_type = "player.chat"
+poll_interval = 1.0
+request_timeout = 10.0
+# mode = "tail" 时用
+jsonl_path = ""
+# mode = "log" 时用：UE4SS 的日志文件。Windows 一般是
+#   <服务器目录>\Pal\Binaries\Win64\ue4ss\UE4SS.log
+log_path = ''   # 首次运行向导会自动填
+log_marker = "[PALBOT]"
+# 启动时跳过日志里已有的历史聊天；设 false 会把旧消息也答一遍（只在测试时用）
+skip_existing = true
+
+# ------------------------------------------------------------
+# 7. 官方 REST API（transport = "rest" 时才用）
+# ------------------------------------------------------------
+[palworld_rest]
+url = "http://127.0.0.1:8212"
+admin_password = ""

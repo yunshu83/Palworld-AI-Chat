@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "note": "补全字段的显示规则：keywords 命中问题时才会把该字段塞进提示词。key 要和 data/overrides/paldex.json 里的一致。",
+  "fields": {
+    "spawn": {
+      "label": "刷新位置",
+      "keywords": ["在哪", "哪里", "刷新", "抓捕", "抓", "位置"]
+    },
+    "capture": {
+      "label": "捕获率",
+      "keywords": ["捕获", "抓", "球"]
+    },
+    "breeding": {
+      "label": "配种",
+      "keywords": ["配种", "生蛋", "杂交", "繁殖"]
+    },
+    "mount": {
+      "label": "骑乘",
+      "keywords": ["骑", "坐骑", "飞行"]
+    },
+    "note": {
+      "label": "备注",
+      "keywords": ["备注", "注意", "坑"]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 纯标准库项目，不需要 pip install
+      - name: 跑本地自检
+        run: python tests/test_router.py
+
+      - name: 数据自检（只报错不中断，警告允许存在）
+        run: python run.py data check
+        continue-on-error: true

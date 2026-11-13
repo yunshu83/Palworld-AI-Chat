@@ -1,0 +1,30 @@
+# 本机实配（含密钥、含本机路径），绝不入库
+config.toml
+config.local.json
+
+# 运行产物
+logs/
+.palbot.lock
+data/memory.json
+*.bak-*
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 内置 Python（打包时生成，不随源码提交）
+python/
+
+# 抓取缓存（体积大，可随时重新生成）
+data/raw/
+data/raw_extra/
+data/backup/
+
+# 临时文件
+data/_*.txt
+tmp*/
+*.tmp
+
+# 打包产物
+dist/

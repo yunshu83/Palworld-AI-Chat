@@ -1,0 +1,4765 @@
+{
+ "version": "2.0",
+ "note": "一条技能可能有多个效果；lv1/lv5 取自各自句子的百分比区间（1~5级），推荐按 lv5",
+ "pals": [
+  {
+   "name": "棉悠悠",
+   "skill": "茸茸盾牌",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "捣蛋猫",
+   "skill": "跟猫借手手",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "皮皮鸡",
+   "skill": "产蛋",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "翠叶鼠",
+   "skill": "翠叶鼠出击",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冲浪鸭",
+   "skill": "乘风破浪",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "热浪鸭",
+   "skill": "热浪滚滚",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "玉藻狐",
+   "skill": "挖掘指导",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "鲁米儿",
+   "skill": "微风滑翔",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷米儿",
+   "skill": "电风滑翔",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "米露菲",
+   "skill": "蓬松毛毛",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "无",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "武道蛙",
+   "skill": "蓄势跳跃",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 50,
+     "lv5": 86
+    }
+   ]
+  },
+  {
+   "name": "极道蛙",
+   "skill": "蓄势暗跃",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    }
+   ]
+  },
+  {
+   "name": "达鼠泥",
+   "skill": "起搏鼠鼠",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "壶小象",
+   "skill": "疗伤之浴",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 20,
+     "lv5": 40
+    }
+   ]
+  },
+  {
+   "name": "叶泥泥",
+   "skill": "樵夫啦啦队",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "宗铭丸",
+   "skill": "干劲支援",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 35
+    }
+   ]
+  },
+  {
+   "name": "幸叶茸",
+   "skill": "幸运三叶草",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "电棘鼠",
+   "skill": "电击炸弹",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冰刺鼠",
+   "skill": "冻结炸弹",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "瞅什魔",
+   "skill": "摄取咖啡因",
+   "role": "移动探索",
+   "effects": [
+    {
+     "role": "移动探索",
+     "scope": "自己",
+     "element": "",
+     "lv1": 100,
+     "lv5": 900
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "企丸丸",
+   "skill": "企丸丸发射",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "闪丸丸",
+   "skill": "闪丸丸发射",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "企丸王",
+   "skill": "勇敢的海之战士",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "火",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "闪丸王",
+   "skill": "不屈的雷击船长",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    }
+   ]
+  },
+  {
+   "name": "啼卡尔",
+   "skill": "暗影睿智",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "暗",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "美露帕",
+   "skill": "蓬蓬羊毛",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "君王美露帕",
+   "skill": "大力国王",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 5,
+     "lv5": 14
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冰帝美露帕",
+   "skill": "冷酷国王",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 5,
+     "lv5": 14
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "寐魔",
+   "skill": "逐梦者",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "新叶猿",
+   "skill": "猴急步枪",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "秋叶猿",
+   "skill": "枪火奇猿",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "露娜蒂",
+   "skill": "冷娇",
+   "role": "探索探测",
+   "effects": [
+    {
+     "role": "探索探测",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "融焰娘",
+   "skill": "熔岩之泪",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "燎火鹿",
+   "skill": "微小火种",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "火",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "喵丝特",
+   "skill": "招财猫",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冰丝特",
+   "skill": "晴天冰雳",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "草莽猪",
+   "skill": "坚硬头壳",
+   "role": "骑乘采集",
+   "effects": [
+    {
+     "role": "骑乘采集",
+     "scope": "自己",
+     "element": "",
+     "lv1": 500,
+     "lv5": 2000
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "火绒狐",
+   "skill": "抱抱火焰",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雪绒狐",
+   "skill": "抱抱寒冰",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "勾魂鱿",
+   "skill": "炸鱿鱼",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "蚀魂鱿",
+   "skill": "炸鱿鱼",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "遁地鼠",
+   "skill": "矿工啦啦队",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "紫霞鹿",
+   "skill": "森林守护者",
+   "role": "骑乘采集",
+   "effects": [
+    {
+     "role": "骑乘采集",
+     "scope": "自己",
+     "element": "",
+     "lv1": 220,
+     "lv5": 500
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "祇岳鹿",
+   "skill": "金之森守护者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "猎狼",
+   "skill": "猎狼骑手",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "灌木羊",
+   "skill": "采摘野莓",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "郁木羊",
+   "skill": "采摘毒腺",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "毛掸儿",
+   "skill": "毛茸茸茸茸",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "毛老爹",
+   "skill": "毛茸茸之王",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 12,
+     "lv5": 24
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "盔盔仔",
+   "skill": "尖刺刺运输",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "自己",
+     "element": "",
+     "lv1": 80,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "金盔仔",
+   "skill": "亮闪闪运输",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 80,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "吊缚灵",
+   "skill": "空中秋千",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冰缚灵",
+   "skill": "寒空秋千",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "棉花糖",
+   "skill": "糖果甜心",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "可可棉花糖",
+   "skill": "苦涩甜心",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "波霸牛",
+   "skill": "产奶",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "碧海龙",
+   "skill": "水翔之舞",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "碧月龙",
+   "skill": "冰翔之舞",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "伏特喵",
+   "skill": "静电",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "雷",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "水灵儿",
+   "skill": "洒水",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "水",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "火灵儿",
+   "skill": "熔岩泼洒",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "火",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "姬小兔",
+   "skill": "微笑公主兔",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "无",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "艾小兔",
+   "skill": "暴力青草兔",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    },
+    {
+     "role": "工作加成",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 200,
+     "lv5": 400
+    }
+   ]
+  },
+  {
+   "name": "海月仙",
+   "skill": "海月仙祝福",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 55,
+     "lv5": 95
+    },
+    {
+     "role": "工作加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 50,
+     "lv5": 120
+    }
+   ]
+  },
+  {
+   "name": "海月灵",
+   "skill": "海月灵祝福",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 55,
+     "lv5": 95
+    },
+    {
+     "role": "工作加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 50,
+     "lv5": 120
+    }
+   ]
+  },
+  {
+   "name": "莉欧·莉涅",
+   "skill": "魔力双子",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "墨沫姬",
+   "skill": "缠人小公主",
+   "role": "捕获辅助",
+   "effects": [
+    {
+     "role": "捕获辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 12,
+     "lv5": 35
+    }
+   ]
+  },
+  {
+   "name": "梦沫姬",
+   "skill": "咬咬姬",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "水",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "天擒鸟",
+   "skill": "天擒鸟滑翔",
+   "role": "滑翔辅助",
+   "effects": [
+    {
+     "role": "滑翔辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "滑翔辅助",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "念影喵",
+   "skill": "附体灵猫",
+   "role": "捕获辅助",
+   "effects": [
+    {
+     "role": "捕获辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "疾风隼",
+   "skill": "旅伴",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "猫蝠怪",
+   "skill": "猫妖感应",
+   "role": "探索探测",
+   "effects": [
+    {
+     "role": "探索探测",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "炸蛋鸟",
+   "skill": "炸蛋发射器",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷角马",
+   "skill": "疾风迅雷",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "凌角马",
+   "skill": "冰华乱舞",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "鲨小子",
+   "skill": "易怒鲨鲨",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 20
+    },
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "红小鲨",
+   "skill": "易怒鲨鲨",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 20
+    },
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "月镰魔",
+   "skill": "黑暗中的闪亮利爪",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "霜镰魔",
+   "skill": "冰结利爪",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "黑鸦隐士",
+   "skill": "夜袭怪鸟",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "炽焰牛",
+   "skill": "温暖之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雪绵啾",
+   "skill": "软萌圆圆鸟",
+   "role": "捕获辅助",
+   "effects": [
+    {
+     "role": "捕获辅助",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "荆棘魔仙",
+   "skill": "公主的视线",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "草",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "幻悦蝶",
+   "skill": "神秘鳞粉",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "电汪汪",
+   "skill": "电光强化",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "精灵龙",
+   "skill": "善良的圣洁之龙",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "暗",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "水灵龙",
+   "skill": "善良的流水之龙",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "烽歌龙",
+   "skill": "大空袭击者",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 20,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "霜歌龙",
+   "skill": "大空袭击者",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "夜幕魔蝠",
+   "skill": "窃取生命",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 5,
+     "lv5": 9
+    }
+   ]
+  },
+  {
+   "name": "薇莉塔",
+   "skill": "大地净化",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "地",
+     "lv1": 40,
+     "lv5": 80
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "骑士蜂",
+   "skill": "工蜂",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "女皇蜂",
+   "skill": "女王蜂的统率",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 12,
+     "lv5": 24
+    }
+   ]
+  },
+  {
+   "name": "博爱蜥",
+   "skill": "爱心吸取",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 5,
+     "lv5": 9
+    }
+   ]
+  },
+  {
+   "name": "笑魇猫",
+   "skill": "猫眼逼人",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "桃蛛娘",
+   "skill": "桃色之网",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "香草豹冰",
+   "skill": "滑雪行家",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "移动探索",
+     "scope": "自己",
+     "element": "",
+     "lv1": 80,
+     "lv5": 160
+    }
+   ]
+  },
+  {
+   "name": "巧克力豹冰",
+   "skill": "雪山速滑",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "移动探索",
+     "scope": "自己",
+     "element": "",
+     "lv1": 80,
+     "lv5": 160
+    }
+   ]
+  },
+  {
+   "name": "朋克蜥",
+   "skill": "透明化",
+   "role": "潜行",
+   "effects": [
+    {
+     "role": "潜行",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "热血蜥",
+   "skill": "透明化",
+   "role": "潜行",
+   "effects": [
+    {
+     "role": "潜行",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "铁拳猿",
+   "skill": "火力全开大猩猩模式",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 75,
+     "lv5": 300
+    }
+   ]
+  },
+  {
+   "name": "石掌猿",
+   "skill": "火力全开铁臂大猩猩",
+   "role": "移动探索",
+   "effects": [
+    {
+     "role": "移动探索",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 50,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "滑水蛇",
+   "skill": "滑滑水蛇",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "流沙蛇",
+   "skill": "滑滑沙蛇",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "羽箭射手",
+   "skill": "射箭达人",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 35
+    }
+   ]
+  },
+  {
+   "name": "山岳射手",
+   "skill": "挽弓达人",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "波娜兔",
+   "skill": "兔兔助手",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "焰巫狐",
+   "skill": "狐神大人",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "幽巫狐",
+   "skill": "巫神大人",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "暗巫猫",
+   "skill": "怪奇黑魔法",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "无",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "炽巫猫",
+   "skill": "热情黑魔法",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷冥鸟",
+   "skill": "冥府之翼",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷鸣鸟",
+   "skill": "雷鸣之翼",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "密林陶洛斯",
+   "skill": "大自然之威",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "冰峰陶洛斯",
+   "skill": "永冻土之威",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "秘斯媞雅",
+   "skill": "反重力",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "云海鹿",
+   "skill": "风云",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷隐鹿",
+   "skill": "雷云",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "水",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "花冠龙",
+   "skill": "馥郁花香之龙",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "龙",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷冠龙",
+   "skill": "落雷绽放之龙",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "雷",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "浪刃武士",
+   "skill": "紫电一闪",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "鬼刃武士",
+   "skill": "秘技·紫电一闪",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 65
+    },
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "肚肚鳄",
+   "skill": "雪盆大口",
+   "role": "负重载运",
+   "effects": [
+    {
+     "role": "负重载运",
+     "scope": "自己",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "森猛犸",
+   "skill": "盖亚粉碎者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 220,
+     "lv5": 500
+    }
+   ]
+  },
+  {
+   "name": "雪猛犸",
+   "skill": "冰霜粉碎者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 220,
+     "lv5": 500
+    }
+   ]
+  },
+  {
+   "name": "布偶鲨",
+   "skill": "水流扳机",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "粉粉布偶鲨",
+   "skill": "炎炎收纳间",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 60,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "花丽娜",
+   "skill": "花精灵的祝福",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 75,
+     "lv5": 85
+    },
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "樱丽娜",
+   "skill": "花精灵的热情",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "莉芳",
+   "skill": "克己复礼",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "草",
+     "lv1": 2,
+     "lv5": 6
+    }
+   ]
+  },
+  {
+   "name": "炎魔羊",
+   "skill": "焰爪猎人",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "暗魔羊",
+   "skill": "黑爪猎人",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷鸣童子",
+   "skill": "雷电姑娘",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "天阴童子",
+   "skill": "乌云姑娘",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "火麒麟",
+   "skill": "赤兔马",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "邪麒麟",
+   "skill": "黑兔马",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "佩克龙",
+   "skill": "饿饿飞弹",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "派克龙",
+   "skill": "飞弹盛宴",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "吹雪狐",
+   "skill": "极光的指引",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "冰",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "迅雷鸟",
+   "skill": "天雷",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "疾霜鸟",
+   "skill": "天霰",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冥灯鱼",
+   "skill": "暗夜引路人",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "炙灯鱼",
+   "skill": "深海名厨",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "霹雳犬",
+   "skill": "雷雳跃行",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "凛光犬",
+   "skill": "霜跃疾行",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "冰",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冥铠蝎",
+   "skill": "钢铁之蝎",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "雷",
+     "lv1": 5,
+     "lv5": 10
+    }
+   ]
+  },
+  {
+   "name": "金铠蝎",
+   "skill": "黄金之蝎",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "雷",
+     "lv1": 5,
+     "lv5": 10
+    }
+   ]
+  },
+  {
+   "name": "球抱苞",
+   "skill": "请你抱抱我",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    }
+   ]
+  },
+  {
+   "name": "妖抱苞",
+   "skill": "紧紧抱住你",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "严冬鹿",
+   "skill": "冰凉之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "叶胖达",
+   "skill": "不良熊猫",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷胖达",
+   "skill": "不良熊猫",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "疾旋鼬",
+   "skill": "扭扭鼬鼬",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "桃旋鼬",
+   "skill": "烧鼬鼬",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "燧火鸟",
+   "skill": "烈焰之翼",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "流焰龙",
+   "skill": "熔岩霸主",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "川霜龙",
+   "skill": "寒冰霸主",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "咕咕桑葩",
+   "skill": "桑巴舞步",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "碎岩龟",
+   "skill": "钻头粉碎者",
+   "role": "骑乘采集",
+   "effects": [
+    {
+     "role": "骑乘采集",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 800,
+     "lv5": 2000
+    }
+   ]
+  },
+  {
+   "name": "连理龙",
+   "skill": "恋香初绽",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "海誓龙",
+   "skill": "纯心盛绽",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "趴趴鲶",
+   "skill": "改善土质",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "地",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "梆梆鲶",
+   "skill": "黄金丰收",
+   "role": "牧场产出",
+   "effects": [
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "梁叶龙",
+   "skill": "暖洋洋晴日",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 20,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "苍焰狼",
+   "skill": "日轮之狼",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "幽焰狼",
+   "skill": "昙天之狼",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "狱焰王",
+   "skill": "狱炎狮子",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "草",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "狱阎王",
+   "skill": "黑炎狮子",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "无",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "铠格力斯",
+   "skill": "攻守一体的黑甲",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "格鲁力斯",
+   "skill": "攻守一体的金甲",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "白真雪雀",
+   "skill": "孔雀迅捷",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 20,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "紫狐娇",
+   "skill": "暗狐秘咒",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "绸笠蛾",
+   "skill": "神秘缠丝者",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "绢笠蛾",
+   "skill": "神秘缠金丝者",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "无",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "噬魂兽",
+   "skill": "冥界使者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "菇咚",
+   "skill": "飘飘然孢子",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "菇波",
+   "skill": "幽幽然孢子",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冰姬灵",
+   "skill": "魔女的冷气",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "缚乃伊",
+   "skill": "黄泉归来",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "覆海龙",
+   "skill": "呼唤风暴的深海龙",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "腾炎龙",
+   "skill": "呼唤风暴的熔岩龙",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "朱雀",
+   "skill": "炎之翼",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "清雀",
+   "skill": "水之翼",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "战冠雀",
+   "skill": "飞砂腿",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "天羽龙",
+   "skill": "天空龙的慈爱",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "龙",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "翠羽龙",
+   "skill": "翠龙的慈爱",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "春彩娘",
+   "skill": "繁花告春",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 50,
+     "lv5": 70
+    }
+   ]
+  },
+  {
+   "name": "球犰",
+   "skill": "滚滚沙滩球",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "地",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "八云犬",
+   "skill": "物以类聚",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "鞘刀鱼",
+   "skill": "斩骨断肉",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "炼刃鱼",
+   "skill": "炼骨断肉",
+   "role": "化身装备",
+   "effects": [
+    {
+     "role": "化身装备",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "熔岩兽",
+   "skill": "贪食矿石之兽",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "负重载运",
+     "scope": "自己",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "寒霜兽",
+   "skill": "贪食冰霜之兽",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "负重载运",
+     "scope": "自己",
+     "element": "",
+     "lv1": 35,
+     "lv5": 65
+    }
+   ]
+  },
+  {
+   "name": "夜冥驹",
+   "skill": "夜舞者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "移动探索",
+     "scope": "自己",
+     "element": "",
+     "lv1": 50,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "日耀驹",
+   "skill": "光舞者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "磐峰兽",
+   "skill": "能量石",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    }
+   ]
+  },
+  {
+   "name": "寒峰兽",
+   "skill": "能量水晶",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "冰棘兽",
+   "skill": "猎龙者",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "龙",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "金棘兽",
+   "skill": "爆碎铁腕",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "雪墩墩",
+   "skill": "不见之眼",
+   "role": "潜行",
+   "effects": [
+    {
+     "role": "潜行",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "白绒雪怪",
+   "skill": "雪山巨人",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "绿苔绒怪",
+   "skill": "南方巨人",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "恐炬灵",
+   "skill": "古墓烛影",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "牧场产出",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "颚莉丝",
+   "skill": "巨舌缠绕",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "焰煌",
+   "skill": "熔岩凯撒",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 5,
+     "lv5": 10
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "殁殃",
+   "skill": "巨龙凯撒",
+   "role": "克制增伤",
+   "effects": [
+    {
+     "role": "克制增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 25,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "双心岩傀",
+   "skill": "自然光炮",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "咒心岩傀",
+   "skill": "枯萎光炮",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "阿努比斯",
+   "skill": "沙漠守护神",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "塞赫麦特",
+   "skill": "沙漠女帝",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    }
+   ]
+  },
+  {
+   "name": "蛊刺妖",
+   "skill": "无毒毒蝎",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    }
+   ]
+  },
+  {
+   "name": "电针妖",
+   "skill": "低频脉冲蝎",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "重岩龟",
+   "skill": "负石古代龟",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "净岩龟",
+   "skill": "逐石古代龟",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "妮瞅莎",
+   "skill": "猫咪霰阵",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "旺财",
+   "skill": "撬锁",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "杰诺贝达",
+   "skill": "未知侵略者",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 100,
+     "lv5": 160
+    }
+   ]
+  },
+  {
+   "name": "杰诺路达",
+   "skill": "未知入侵者",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 35
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "梅莉姆",
+   "skill": "丰收祈愿",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 18,
+     "lv5": 35
+    }
+   ]
+  },
+  {
+   "name": "魅爱莉",
+   "skill": "夺魂幽灵兔",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 100,
+     "lv5": 200
+    }
+   ]
+  },
+  {
+   "name": "碧艾莉",
+   "skill": "缚魂幽灵兔",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "草",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "墨丸",
+   "skill": "忠犬墨丸",
+   "role": "探索探测",
+   "effects": [
+    {
+     "role": "探索探测",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "冬丸",
+   "skill": "忠犬冬丸",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "面惧",
+   "skill": "假面舞会",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "凉晶鲸",
+   "skill": "凉冰冰鲸鱼号",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "捕获辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 5,
+     "lv5": 14
+    }
+   ]
+  },
+  {
+   "name": "桃晶鲸",
+   "skill": "暖烘烘鲸鱼号",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "捕获辅助",
+     "scope": "自己",
+     "element": "",
+     "lv1": 7,
+     "lv5": 17
+    }
+   ]
+  },
+  {
+   "name": "踏春兔",
+   "skill": "草原特技之星",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "幽恋娜",
+   "skill": "狂爱之刃",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "自己",
+     "element": "",
+     "lv1": 100,
+     "lv5": 200
+    }
+   ]
+  },
+  {
+   "name": "金驰兽",
+   "skill": "沙尘加护",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "汪宗师",
+   "skill": "归去来兮",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "力士獒",
+   "skill": "横纲风范",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "净世鹿",
+   "skill": "净化的祝福",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "织夜鹿",
+   "skill": "混沌的祝福",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 40,
+     "lv5": 80
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "魔渊龙",
+   "skill": "黑铠之龙",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 1100,
+     "lv5": 3300
+    }
+   ]
+  },
+  {
+   "name": "泰锋",
+   "skill": "钢铁卫士模式",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "丹烽",
+   "skill": "铁血卫士模式",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "艾基鲁迦",
+   "skill": "埃癸斯之盾",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 60
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "驭雷马",
+   "skill": "电离冲刺",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "喵璐璐",
+   "skill": "伸展喵咪",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "电涡蜗",
+   "skill": "电电电池",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "金涡蜗",
+   "skill": "咚咚甲壳",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "蒲蒲飞芽",
+   "skill": "绒毛妖精",
+   "role": "捕获辅助",
+   "effects": [
+    {
+     "role": "捕获辅助",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "詹兔曼",
+   "skill": "大地是好朋友",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    }
+   ]
+  },
+  {
+   "name": "兜兜灵",
+   "skill": "潜于虚无之物",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 50,
+     "lv5": 100
+    }
+   ]
+  },
+  {
+   "name": "电懒懒",
+   "skill": "懒懒电键",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "吓丝妮",
+   "skill": "播撒欢笑的亡者",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "自己",
+     "element": "",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "曼波王",
+   "skill": "领袖翻车鱼",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "曼波皇",
+   "skill": "电光翻车鱼",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 5,
+     "lv5": 20
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "兔绣袖",
+   "skill": "长袖啦啦队员",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "灵曦龙",
+   "skill": "自由翼龙",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "狱熙龙",
+   "skill": "愤怒翼龙",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "雷云鹫",
+   "skill": "电动按摩式抱窝",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "大红呱",
+   "skill": "花之舞",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "昭炎狐",
+   "skill": "未来之炎",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "沁莲龙",
+   "skill": "清灿迷雾",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "拉比耶尔",
+   "skill": "拉比拉比魔术秀",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 30,
+     "lv5": 50
+    }
+   ]
+  },
+  {
+   "name": "盗影鸦",
+   "skill": "潜影怪鸟",
+   "role": "异常增伤",
+   "effects": [
+    {
+     "role": "异常增伤",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 50,
+     "lv5": 65
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "梅杜娜",
+   "skill": "灵蛇之智",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "红菇娘",
+   "skill": "魅惑孢子",
+   "role": "工作加成",
+   "effects": [
+    {
+     "role": "工作加成",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "妖焰灯",
+   "skill": "提灯附魔",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "缀夜星",
+   "skill": "隐藏的暗能量",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "队伍",
+     "element": "暗",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "墨罗娜",
+   "skill": "孤染公主",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 30,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "燎火舞伶",
+   "skill": "大显身手",
+   "role": "控制",
+   "effects": [
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "磐甲龙",
+   "skill": "不破要塞龙",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 60,
+     "lv5": 80
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "暴电熊",
+   "skill": "黄色重型战车",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "百合女王",
+   "skill": "丰饶女神",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 80,
+     "lv5": 90
+    }
+   ]
+  },
+  {
+   "name": "黑月女王",
+   "skill": "幽光女神",
+   "role": "治疗",
+   "effects": [
+    {
+     "role": "治疗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 85,
+     "lv5": 95
+    }
+   ]
+  },
+  {
+   "name": "波鲁杰克斯",
+   "skill": "凶猛的迅雷龙",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 1,
+     "lv5": 5
+    }
+   ]
+  },
+  {
+   "name": "荷鲁斯",
+   "skill": "灼热捕食者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "冰",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "伊西斯",
+   "skill": "潮汐捕食者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "火",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "异构格里芬",
+   "skill": "基因改造",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "辉月伊",
+   "skill": "晦暗辉光",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  },
+  {
+   "name": "霜牙王",
+   "skill": "暴雪冲击",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "霄龙",
+   "skill": "苍天统治者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "暮尘蛾",
+   "skill": "孢子守卫",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "夜蔓爵",
+   "skill": "迷雾守卫",
+   "role": "减伤抗性",
+   "effects": [
+    {
+     "role": "减伤抗性",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "控制",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "贝菈诺娃",
+   "skill": "梦魇之瞳",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "贝菈露洁",
+   "skill": "噩梦凝视",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "杰诺多兰",
+   "skill": "陨星之翼",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 20,
+     "lv5": 50
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "默世鹿",
+   "skill": "庇佑圣盾",
+   "role": "防御增益",
+   "effects": [
+    {
+     "role": "防御增益",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "圣光骑士",
+   "skill": "天翔圣骑士",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "混沌骑士",
+   "skill": "深渊黑骑士",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "唤冬兽",
+   "skill": "冰天马",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "唤夜兽",
+   "skill": "黑天马",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 10,
+     "lv5": 40
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "海皇鲸",
+   "skill": "大海的霸主",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "队伍",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    },
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "空涡龙",
+   "skill": "地毯式轰炸",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "奥沧鲸",
+   "skill": "残响守护者",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "枯星龙",
+   "skill": "-",
+   "role": "其他",
+   "effects": []
+  },
+  {
+   "name": "绿史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "蓝史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "红史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "紫史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "夜明史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "彩虹史莱姆",
+   "skill": "史莱姆之躯",
+   "role": "坐骑",
+   "effects": [
+    {
+     "role": "坐骑",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "附魔剑",
+   "skill": "附魔",
+   "role": "掉落加成",
+   "effects": [
+    {
+     "role": "掉落加成",
+     "scope": "队伍",
+     "element": "暗",
+     "lv1": 40,
+     "lv5": 80
+    }
+   ]
+  },
+  {
+   "name": "洞穴蝙蝠",
+   "skill": "支援蝙蝠",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "夜明蝙蝠",
+   "skill": "支援蝙蝠",
+   "role": "协助战斗",
+   "effects": [
+    {
+     "role": "协助战斗",
+     "scope": "玩家",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "克苏鲁之眼",
+   "skill": "进击的克苏鲁之眼",
+   "role": "主动攻击技",
+   "effects": [
+    {
+     "role": "主动攻击技",
+     "scope": "自己",
+     "element": "",
+     "lv1": 0,
+     "lv5": 0
+    }
+   ]
+  },
+  {
+   "name": "恶魔眼",
+   "skill": "恶魔的视野",
+   "role": "攻击增益",
+   "effects": [
+    {
+     "role": "攻击增益",
+     "scope": "队伍",
+     "element": "暗",
+     "lv1": 15,
+     "lv5": 30
+    }
+   ]
+  }
+ ]
+}
