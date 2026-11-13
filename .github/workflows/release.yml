@@ -1,0 +1,42 @@
+name: release
+
+# 打一个 v* 标签就会自动构建发布包并挂到 Release：
+#   git tag v1.0.0
+#   git push origin v1.0.0
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 构建脚本用 PowerShell 跑，测试和发布都基于同一份代码
+      - name: 下载内置 Python
+        shell: pwsh
+        run: |
+          $url = "https://www.python.org/ftp/python/3.12.7/python-3.12.7-embed-amd64.zip"
+          Invoke-WebRequest -Uri $url -OutFile py.zip
+          Expand-Archive py.zip -DestinationPath python -Force
+          # 让内置 Python 能找到项目根目录（和本地打包时一致）
+          Add-Content -Path "python\python312._pth" -Value ".."
+
+      - name: 跑测试
+        shell: pwsh
+        run: python\python.exe tests/test_router.py
+
+      - name: 构建发布包
+        shell: pwsh
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File tools/build-release.ps1 -Version ${{ github.ref_name }}
+
+      - name: 挂到 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
