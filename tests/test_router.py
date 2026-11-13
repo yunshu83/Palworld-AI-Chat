@@ -12,12 +12,15 @@ from types import SimpleNamespace
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-# 沙箱环境下 tempfile 可能回退到当前目录，所以统一登记、跑完删掉
+# 不用系统临时目录：在受限环境（沙箱 / CI）里可能根本不可写。
+# 统一放在 tests/_tmp 下，跑完删掉。
+_TEMP_ROOT = Path(__file__).resolve().parent / "_tmp"
 _TEMP_DIRS: list[Path] = []
 
 
 def tempdir() -> Path:
-    path = Path(tempfile.mkdtemp())
+    _TEMP_ROOT.mkdir(parents=True, exist_ok=True)
+    path = Path(tempfile.mkdtemp(dir=_TEMP_ROOT))
     _TEMP_DIRS.append(path)
     return path
 
@@ -827,6 +830,7 @@ def main() -> int:
     print(f"\n{len(tests) - failed}/{len(tests)} 通过")
     for path in _TEMP_DIRS:
         shutil.rmtree(path, ignore_errors=True)
+    shutil.rmtree(_TEMP_ROOT, ignore_errors=True)
     return 1 if failed else 0
 
 
